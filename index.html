@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-like Design</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.5.1-web/css/all.css">
+</head>
+
+<body>
+
+    <aside>
+        <nav id="firstBlock">
+            <ul>
+                <li><i class="fa-brands fa-spotify" style="font-size: 25px;"></i> Spotify</li>
+                <li><i class="fa-solid fa-house"></i> &ensp;&ensp;  Inicio</li>
+                <li><i class="fa-solid fa-magnifying-glass"></i> &ensp;&ensp; Buscar</li>
+            </ul>
+        </nav> 
+
+        <nav id="secondBlock">
+            
+            <div id="Library"> 
+                <div><i class="fa-solid fa-book"></i>&ensp; Tu biblioteca</div> <div><i class="fa-solid fa-plus"></i> </div>
+            </div>
+            
+            <div id="advertistment">
+                <div id="createList">
+                    <p style="font-size: 17px;">Crea tu primera lista</p>
+                    <p style="font-size: 14px;">Es muy facil, y te echaremos una mano</p>
+                    <input type="submit" name="list" class="btn first" value="Crear lista">
+                </div>
+            
+
+                <div id="explorePodcast">
+                    <p style="font-size: 17px;">Encuentra pódcasts que quieres seguir</p>
+                    <p style="font-size: 14px;">Te avisaremos cuando salgan nuevos episodios</p>
+                    <input type="submit" name="podcast" class="btn second" value="Explorar pódcast">
+                </div>                
+            </div>
+
+
+            <div id="textInfo">
+                <p>Legal</p>
+                <p>Centro de Privacidad</p>
+                <p>Política de Privacidad</p>
+                <p>Cookies</p>
+                <p>Información sobre los anuncios</p>
+                <p>Accesibilidad</p>
+                <p>Notice at Collection</p>
+                <p>Your Privacy Choices &ensp;&ensp; <i class="fa-solid fa-shield-halved"></i></p>
+                <p>Cookies</p>
+                <p></p>
+            </div>
+
+            <button type="button" class="btn three"> <i class="fa-solid fa-globe"></i> Español de España</button>
+        </nav>
+
+    </aside>
+
+
+    <main>
+        <header>
+            <div id="slide">
+                <p><i class="fa-solid fa-less-than"></i></p>&ensp;&ensp;&ensp;&ensp;
+                <p><i class="fa-solid fa-greater-than"></i></p>
+            </div>
+
+            <div id="services">
+                <p>Premium </p> &ensp;&ensp;
+                <p>Asistencia </p> &ensp;&ensp;
+                <p>Descargar </p> &ensp;&ensp;
+                <p> | </p> &ensp;&ensp;
+                <p> Registrarse </p> &ensp;&ensp;
+                <input type="button" value="Iniciar sesión" class="btn five">
+            </div>
+
+        </header>
+        
+        <div id="contenido">
+            
+            <div id="superior">
+                <p>Zzzzzzz</p>
+                <p>Mostrar todos</p>
+            </div>
+
+            <div id="playlist">
+                <!--Contenido de javaScript-->
+            </div>            
+            
+            <div id="extraLinks">
+                <div id="textLinks">
+                    <div id="Empresas">
+                        <p class="title">Empresas</p>
+                        <p class="link">Acerca</p>
+                        <p class="link">Empleo</p>
+                        <p class="link">For the Record</p>
+                    </div>
+
+                    <div id="Comunidades">
+                        <p class="title">Comunidades</p>
+                        <p class="link">Para artistas</p>
+                        <p class="link">Desarrolladores</p>
+                        <p class="link">Publicidad</p>
+                        <p class="link">Inversores</p>
+                        <p class="link">Proveedores</p>
+                    </div>
+
+                    <div id="EnlacesÚtiles">
+                        <p class="title">Enlaces útiles</p>
+                        <p class="link">Asistencia</p>
+                        <p class="link">App gratis para movil</p>
+                    </div>                    
+                </div>
+
+                <div id="SocialMedia">
+                    <div id="Icon">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div id="copyright">
+                &#169; 2024 Spotify AB
+            </div>
+
+        </div>
+
+
+    </main>
+
+    <footer>
+            <p class="titulo"> <strong> Muestra de Spotify </strong> <br> 
+                Registrate para disfrutar de canciones y podstcast sin limites, 
+                con anuncios ocasionales. No hace falta tarjeta de crédito            
+            </p>
+           <input type="submit" name="Registro" class="btn four" value="Registrate gratis">
+    </footer>
+    
+    <script src="./modifyScroll.js"></script>
+    <script src="./songs.js"></script>
+</body>
+
+</html>
